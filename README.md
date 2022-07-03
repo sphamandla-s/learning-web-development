@@ -3,9 +3,12 @@ I've decided to learn web development and have committed to #100daysofcode. Thi
 
 Day 1 - I will be learning HTML tags:
 
+comments
 paragraphs
 headings
 links
+lists
+thematic break
 
 After Today's lesson, i will do a project:
-A Blockchain.com - Wikipedia page
+A Blockchain.com - Wikipedia page (replica)
