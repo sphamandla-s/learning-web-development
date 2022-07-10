@@ -12,3 +12,7 @@ thematic break
 
 After Today's lesson, i will do a project:
 A Blockchain.com - Wikipedia page (replica)
+
+Day 2 - I will be learning :
+tables
+forms
