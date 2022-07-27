@@ -55,3 +55,20 @@ h1 {
     display: inline-block;
     margin: 20px;
 }
+
+
+.units {
+    background-color: #9d0208;
+}
+
+.units h2 {
+    text-align: center;
+    color: #03045e;
+}
+
+.units-div {
+    background-color: #4a525a;
+    padding: 70px;
+    margin: 0 50px 10px 50px;
+    width: 50%;
+}
