@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(236, 213, 215);
+}
+
+.heading {
+    color: #2da3b3;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: #1e1e1f underline wavy;
+}
+
+p {
+    font-weight: 500px;
+    line-height: 2.5;
+}
+
+.first_para {
+    background-color: #1e1e1f;
+    color: rgb(255, 255, 255);
+    word-spacing: 20px;
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: blue;
+    text-decoration: rgb(255, 0, 0) underline 2px;
+    font-weight: 900px;
+}
+
+#letterG {
+    color: red;
+}

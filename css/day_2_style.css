@@ -1,0 +1,41 @@
+body {
+    background-color: #f1faee;
+}
+
+header h1 {
+    text-align: center;
+    color: #344e41;
+    text-decoration: #e7c6ff solid underline;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+
+header ul li{
+    list-style: none;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+
+}
+
+header ul li a{
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    text-decoration: #eb0914 solid underline 1.5px;
+}
+
+#cats h2{
+    color: #6a040f;
+    text-decoration: #e7c6ff solid underline;
+}
+
+section a {
+    text-decoration: none;
+}
+
+#cats a:hover {
+    color: #6a040f;
+    text-decoration: underline;
+}

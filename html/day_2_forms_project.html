@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAPS Application Form</title>
+</head>
+<body>
+    <h2>PRELIMINARY TRAINEE APPLICATION FORM(2022/2023)</h2>
+    <div>
+        <table>
+            <caption>Attach the following:</caption>
+            <thead>
+                <tr>
+                    <th>
+                        <ul>
+                            <li>identify Document(need not to be certified)</li>
+                        </ul>
+                    </th>
+                    <th>
+                        <ul>
+                            <li>Curriculum Vitae(CV)</li>
+                        </ul>
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>
+                        <form action="#" method="post">
+                            <input type="checkbox" name="attached" id="attached">
+                        </form>
+                    </td>
+                    <td>
+                        <form action="#" method="post">
+                            <input type="checkbox" name="attached" id="attached">
+                        </form>
+                    </td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="2">
+                        CORRESPONDENCE WILL BE CONDUCTED WITH SUCCESSFUL APPLICANTS ONLY AND IF 
+                        YOU HAVE NOT BEEN CONTACTED WITHIN 3 MONTHS AFTER THE CLOSING DATE OF THIS 
+                        ADVERTISEMENT, PLEASE ACCEPT THAT YOUR APPLICATION WAS UNSUCCESSFUL
+                    </td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </div>
+
+    <br>
+
+    <div>
+        <!--remember to change the method to post-->
+        <div>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>PERSONAL INFORMATION</legend>
+                    <div>
+                        <label for="referenceNumber">REFERENCE NUMBER: </label>
+                        <input type="tel" name="reference_number" id="referenceNumber"
+                        placeholder="2022/2023-trainee" pattern="[0-9]{4}/[0-9]{4}-[a-z]{6}"
+                        required>
+                        <label for="nearestPoliceStation">NEAREST POLICE STATION</label>
+                        <input type="text" name="nearestPoliceStation" id="nearestPoliceStation" 
+                        placeholder="Tsakane Police Station" required>
+                    </div>
+                    <br>
+    
+                    <div>
+                        <label for="forceNumber">PERSAL/FORCE NUMBER(curently in SAPS, SANDF or 
+                            another Public Service Department)
+                        </label>
+                        <input type="number" name="forceNumber" id="forceNumber"
+                        pattern="[0-9]{8}">
+                    </div>
+                    <br>
+    
+                    <div>
+                        <label for="firstName">FIRST NAMES</label>
+                        <input type="text" name="firstName" id="firstName" 
+                        placeholder="John Mark" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="idNumber">IDENTITY NUMBER</label>
+                        <input type="number" name="idNumber" id="idNumber"
+                        pattern="[0-9]{13}" placeholder="250726789464">
+                    </div>
+                    <br>
+    
+                    <div>
+                        <label for="age">AGE</label>
+                        <input type="number" name="age" id="age" min="18" max="35" required>
+                        <label for="citizenship"> ARE YOU A SOUTH AFRICAN CITIZEN?</label>
+                        <select name="citizenship" id="citizenship">
+                            <option value="yes" selected>YES</option>
+                            <option value="no">NO</option>
+                        </select>
+                        <label for="yourCitizenship">IF NO, INDICATE NATIONALITY</label>
+                        <input type="text" name="yourCitizenship" id="yourCitizenship">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="postalAddress">POSTAL ADDRESS</label>
+                        <input type="text" name="postalAddress" id="postalAddress"
+                        placeholder="15785 Moloi street Thembisa ext 9" required>
+                        <label for="postalCode">POSTAL CODE</label>
+                        <input type="number" name="postalCode" id="workPostal"
+                        placeholder="1550" pattern="[1-9]{5}">
+                        <br>
+                        <label for="workAddress">WORK ADDRESS</label>
+                        <input type="text" name="workAddress" id="workAddress"
+                        placeholder="84 Addison street Johannesburg" required>
+                        <label for="postalCode">POSTAL CODE</label>
+                        <input type="number" name="postalCode" id="postalCode"
+                        placeholder="1550" pattern="[1-9]{5}">
+                    </div>
+                    <br>
+    
+                    <div>
+                        <label for="homeTelephone">TELEPHONE(HOME)</label>
+                        <input type="tel" name="homeTelephone" id="homeTelephone">
+                        <br>
+                        <label for="workTelephone">TELEPHONE(WORK)</label>
+                        <input type="tel" name="workTelephone" id="workTelephone">
+                        <br>
+                        <label for="cellphone">CELLPHONE</label>
+                        <input type="tel" name="cellphone" id="cellphone"
+                        placeholder="0712345789" pattern="[0-9]{10}" required>
+                        <label for="email">E-MAIL</label>
+                        <input type="email" name="email" id="email" placeholder="exampl@eg.com">
+                    </div>
+                    <br>
+    
+                    <div>
+                        <select name="raceGender" id="raceGender">
+                            <optgroup label="AFRICAN">
+                                <option value="male">MALE</option>
+                                <option value="female">FEMALE</option>
+                            </optgroup>
+                            <optgroup label="WHITE">
+                                <option value="male">MALE</option>
+                                <option value="female">FEMALE</option>
+                            </optgroup>
+                            <optgroup label="INDIAN">
+                                <option value="male">MALE</option>
+                                <option value="female">FEMALE</option>
+                            </optgroup>
+                            <optgroup label="COLOURED">
+                                <option value="male">MALE</option>
+                                <option value="female">FEMALE</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="disability">DO YOU HAVE ANY PHYSICAL DISABILITY</label>
+                        <input type="radio" name="disability" id="disabilityId">
+                        <label for="disabilityId">YES</label>
+                        <input type="radio" name="disability" id="disabilityId">
+                        <label for="disabilityId">NO</label>
+                        <label for="medicalFit">ARE YOU MENTALLY, MEDICAL AND PHYSICAL FIT</label>
+                        <input type="radio" name="medicalFit" id="medicalFitId">
+                        <label for="disabilityId">YES</label>
+                        <input type="radio" name="medicalFit" id="medicalFitId">
+                        <label for="disabilityId">NO</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>QUALIFICATIONS</legend>
+                    <div>
+                        <label for="qualification">ARE YOU IN POSSESSION OF A SENIOR CERTIFICATE 
+                            OR NATIONAL CERTIFICATE(VOCATION)
+                        </label>
+                        <input type="radio" name="qualifications" id="qualificationId">
+                        <label for="qualificationsYes">YES</label>
+                        <input type="radio" name="qualifications" id="qualificationId">
+                        <label for="qualificationsNo">NO</label>
+                    </div>
+                    <div>
+                        <label for="yearCompleted">YEAR COMPLETED</label>
+                        <input type="number" name="year" id="yearCompleted" 
+                        placeholder="2016" pattern="[0-9]{4}">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>POST SCHOOL QUALIFICATION (SPECIFY THE FOLLOWING):</legend>
+                    <label for="nameOfInstitution">NAME OF INSTITUTION</label>
+                    <input type="text" name="institution" id="nameOfInstitution" 
+                    placeholder="University Of South Africa">
+                    <br>
+                    <label for="nameQualification">SPECIFY QUALIFICATION</label>
+                    <input type="text" name="nQualification" id="nameQualification">
+                    <br>
+                    <label for="subjects">MAIN SUBJECTS</label>
+                    <input type="text" name="main" id="subjects">
+                </fieldset>
+                <fieldset>
+                    <legend>DRIVER'S LICENSE</legend>
+                    <label for="license">DO YOU HAVE A VALID DRIVER'S LICENSE?</label>
+                    <input type="radio" name="driver" id="license">
+                    <label for="licenseYes">YES</label>
+                    <input type="radio" name="driver" id="license">
+                    <label for="licenseNo">NO</label>
+                    <label for="code">CODE(as it appearing on the license card)</label>
+                    <input type="text" name="code" id="code">
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>CRIMINAL OFFENCES</legend>
+                    <label for="criminal">HAVE YOU EVER BEEN FOUND GUILTY OF A CRIMINAL OR DEPARTMENTAL
+                        OFFENCE OR DO YOU HAVE ANY CRIMINAL OFFENCE OR DEPARTMENTAL CASE PENDING AGAINST
+                        YOU?
+                    </label>
+                    <input type="radio" name="offence" id="criminal">
+                    <label for="licenseYes">YES</label>
+                    <input type="radio" name="offence" id="criminal">
+                    <label for="licenseNo">NO</label>
+                    <label for="record">(if yes specify)</label>
+                    <input type="text" name="record" id="record">
+                    <br>
+                    <label for="tattoo">DO YOU HAVE ANY TATTOOS?</label>
+                    <input type="radio" name="tattoos" id="tattoo">
+                    <label for="tattooYes">YES</label>
+                    <input type="radio" name="tattoos" id="tattoo">
+                    <label for="tattooNo">NO</label>
+                    <label for="tattooed">IF YES, SPECIFY POSITION</label>
+                    <input type="text" name="tattooed" id="tattooed" placeholder="Upper Arm">
+                    <br>
+                    <label for="public">WERE YOU PREVIOUSLY EMPLOYED IN THE PUBLIC SERVICE?</label>
+                    <input type="radio" name="public" id="public">
+                    <label for="publicYes">YES</label>
+                    <input type="radio" name="public" id="public">
+                    <label for="publicNo">NO</label>
+                    <br>
+                    <label for="voluntary">DID YOU TERMINATE SERVICE VOLUNTARY?</label>
+                    <input type="radio" name="terminate" id="voluntary">
+                    <label for="voluntaryYes">YES</label>
+                    <input type="radio" name="terminate" id="voluntary">
+                    <label for="voluntaryNo">NO</label>
+                </fieldset>
+                <label for="conditions">I ACCEPT THAT A LIMITED NUMBER OF POSITIONS ARE AVAILABLE 
+                    AND I WILL SUBJECT MY SELF TO THE SELECTION PROCESSES AS REQUIRED I ALSO 
+                    GIVE PERMISSION CHECKS AND SECURITY SCREENING TO BE CONDUCTED, SHOULD I 
+                    BE SUBJECTED TO PSYCHOMETRIC AND/OR MEDICAL EXAMINATION, THE RESULT THEREOF 
+                    MAY DISCLOSE TO THE RECRUITMENT PERSONNEL DEALING WITH MY APPLICATION
+                </label>
+                <input type="checkbox" name="terms" id="conditions" required>
+                <div>
+                    <button>SUBMIT</button>
+                </div>
+            </form>
+        </div>
+</body>
+</html>
