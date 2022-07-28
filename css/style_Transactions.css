@@ -1,0 +1,99 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: border-radius 3s  ,background-color 4s;
+}
+
+div:hover {
+    background-color: red;
+     border-radius: 50%;
+}
+
+h1{
+    text-align: center;
+}
+
+.second {
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    transition-timing-function: ease-in;
+}
+
+.second :hover {
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(2, 255, 150, 0.5);
+}
+
+#transform p {
+    border: 2px solid black;
+    width: 200px;
+    padding: 25px;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+#transform :nth-of-type(2) {
+    background-color: brown;
+}
+
+#transform :nth-of-type(3) {
+    background-color: #10451d;
+}
+
+#transform :nth-of-type(4) {
+    background-color: #ffcbf2;
+}
+
+#transform :nth-of-type(5) {
+    background-color: #3ecfbc;
+}
+
+#transform :nth-of-type(6) {
+    background-color: #ef8354;
+}
+
+#transform :nth-of-type(7) {
+    background-color: #ffbe0b;
+}
+
+#transform :nth-of-type(8) {
+    background-color: #456990;
+}
+
+#transform :nth-of-type(9) {
+    background-color: #ff0000;
+}
+
+#transform :nth-of-type(10) {
+    background-color: #92e6a7;
+}
+
+
+#button{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#button button {
+    background-color: #ef8354;
+    padding: 15px 28px;
+    color: #ffcbf2;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid;
+    transition: box-shadow 1s, transform 0.9s;
+
+}
+
+
+#button button:hover {
+    box-shadow: 2px 2px 5px black;
+    transform: translateY(-2px);
+}

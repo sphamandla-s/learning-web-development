@@ -1,0 +1,29 @@
+
+header {
+    font-size: large;
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+    padding: 10px;
+    border-bottom:1px solid red ;
+    width: 80%;
+    margin-left: 150px;
+}
+
+#img {
+    margin: 35px 0 20px 200px;
+}
+
+#img img{
+    width: 40%;
+    margin: 20px;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
+
+
+#img img:hover{
+    transform: translateY(-20px);
+    border-radius: 5%;
+    box-shadow: 10px 5px 5px black;
+
+}
