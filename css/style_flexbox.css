@@ -1,0 +1,68 @@
+#first_example {
+    width: 90%;
+    height: 500px;
+    background-color: #2b2d42;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-items:center;
+    
+}
+
+#first_example div {
+    width: 150px;
+    height: 100px;
+    margin-top: 10px;
+    flex-basis: 200px;
+}
+
+#first_example :nth-of-type(1){
+    background-color: #edf67d;
+    flex-grow: 1;
+}
+
+#first_example :nth-of-type(2){
+    background-color: #f896d8;
+}
+
+#first_example :nth-of-type(3){
+    background-color: #564592;
+    flex-grow: 1;
+}
+
+#first_example :nth-of-type(4){
+    background-color: #155d27;
+}
+
+#first_example :nth-of-type(5){
+    background-color: #926c15;
+    flex-grow: 1;
+}
+
+#first_example :nth-of-type(6){
+    background-color: #ffd300;
+}
+
+
+#second_example {
+    margin: 50px auto;
+    width: 90%;
+    height: 500px;
+    background-color: #edf67d;
+    border: 5px solid #2b2d42;
+    display: flex;
+}
+
+
+#second_example aside {
+    background-color: #155d27;
+    flex: 1 2 20%;
+}
+
+
+#second_example main {
+    background-color: #5b16b4;
+    flex: 2 1 60%;
+}
